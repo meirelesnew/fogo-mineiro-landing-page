@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+.report/
+
+# Node.js
+# attention: node_modules should be ignored, but in this case, we need to push the entire project to github pages
+# node_modules/
+
+# Runtime data
+*.tgz
+.yarn/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle output
+# dist/
+
+# Optional editor directories
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+.directory
+
+# Vite
+.vite/
+
+# Build output (excluding # dist/ for GitHub Pages)
+# /dist
+
+# Other
+*.orig
+
